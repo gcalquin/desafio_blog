@@ -1,0 +1,15 @@
+<h1>Posteos del Blog...</h1>
+<hr>
+<button type="button"><%= link_to "Crear Post", post_dashboard_path	 %></button>
+<hr>
+<% @posts.each do |post| %>
+   <p><b><%= post.title %></b> </p>
+   <p>Fecha: <%= post.created_at.strftime("%d/%m/%Y") %> </p>
+   <p>Hora: <%= post.created_at.strftime("%k:%M:%S") %> </p>
+   <p>Contenido: <%= post.content %> </p>
+   <p>Imagen:</p>
+   <%= image_tag(post.image_url, :size => "80x80") %> 
+   <hr>
+<% end %>
+
+
