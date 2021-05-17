@@ -123,7 +123,7 @@ task default: :test
         remove_file "db/seeds.rb"
         remove_file "Gemfile"
         remove_file "lib/tasks"
-        remove_file "public/robots.txt"
+        ##remove_file "public/robots.txt"
         remove_file "README.md"
         remove_file "test"
         remove_file "vendor"
