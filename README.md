@@ -10,6 +10,8 @@ PASSWORD:  XAHTJEAS23123%23
 
 URL DE IMAGEN: https://es.seaicons.com/wp-content/uploads/2015/08/yellow-rabbit-icon.png
 
+Proyecto realizado con Ruby 2.6.0 y rails 5.2.6
+
 
 
 
